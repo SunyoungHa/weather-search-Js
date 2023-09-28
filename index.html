@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <title>Weather App - Sunshine</title>
+</head>
+
+<body>
+  <div class="startSearch">
+    <header class="left">
+      <h1>Local Weather Report</h1>
+    </header>
+    <div class="card right search-container">
+      <div class="search">
+        <input type="text" id="searchInput" class="search-bar" placeholder="Enter City Name">
+        <button id="searchButton">Search</button>
+      </div>
+    </div>
+  </div>
+  <div class="result" id="resultDiv">
+    <div class="content-row">
+      <div class="content">
+        <h2>Current Temp</h2>
+        <div class="city"></div>
+        <div class="region"></div>
+        <div class="country"></div>
+        <div id="temp"></div>
+        <div id="maxtemp"></div>
+        <div id="mintemp"></div>
+        <div id="daily_chance_of_rain"></div>
+      </div>
+      <div id="absolute" class="content">
+        <div class="desc"></div>
+      </div>
+    </div>
+    <div class="content-row">
+      <div class="content">
+        <h2 id="today"></h2>
+        <div id="temp_t"></div>
+        <div id="maxtemp_t"></div>
+        <div id="mintemp_t"></div>
+        <div id="daily_chance_of_rain_t"></div>
+      </div>
+      <div class="content">
+        <h2 id="tomorrow"></h2>
+        <div id="temp2"></div>
+        <div id="maxtemp_d2"></div>
+        <div id="mintemp_d2"></div>
+        <div id="daily_chance_of_rain_d2"></div>
+      </div>
+      <div id="day_after_tomorrow_mobile" class="content">
+        <h2 id="day_after_tomorrow"></h2>
+        <div id="temp3"></div>
+        <div id="maxtemp_d3"></div>
+        <div id="mintemp_d3"></div>
+        <div id="daily_chance_of_rain_d3"></div>
+      </div>
+    </div>
+    <div class="content-row">
+      <div class="content">
+        <p id="hottest_day"></p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
